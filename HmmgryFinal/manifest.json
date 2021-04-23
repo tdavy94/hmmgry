@@ -1,0 +1,24 @@
+{
+
+"short_name": "Hmmgry?",
+"name": "Meal randomizer",
+"description": "Take the hassle out of your cooking routine",
+"icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+],
+  "start_url": "/index.html",
+  "background_color": "#AAEECC",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#3367D6"
+
+}

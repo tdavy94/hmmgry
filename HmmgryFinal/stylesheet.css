@@ -1,0 +1,280 @@
+html, body {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  max-width: 100%;
+  display: flex;
+  /* align-items: flex-start; */
+}
+
+.container{
+  background: #351341;
+  height:auto;
+  width: 500px;
+  padding: 50px 0;
+  margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-title{
+color: white;
+font-size: 22px;
+font-weight: 400;
+}
+
+.logo{
+  /* width: 60%; */
+  margin-top: 10px;'
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  background: #2a033a;
+  margin-top: 20px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  border-radius: 50px;
+}
+
+.row-3-info{
+  background: #956a9c10;
+  margin: 20px 30px;
+  padding:70px 70px 50px 70px;
+  order: 5;
+  /* border-radius: 30px; */
+}
+
+.title-1{
+color: #dc9811;
+margin-top: -15px;
+padding: 0px 20px;
+text-align: center;
+font-size: 16px;
+}
+
+.info-text{
+color: white;
+padding: 0 30px 0 30px;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.8;
+margin: 0;
+}
+
+.row-1{
+order: 0;
+display: flex;
+justify-content: center;
+}
+
+.row-2{
+order: 3;
+margin-top: 20px;
+}
+
+
+.row-4{
+order: 10;
+background: #351341;
+border-radius: 100%;
+margin-top: 50px;
+}
+
+
+.row-meal{
+  order: 7;
+  /* background: white; */
+  /* margin: 0 10px 30px 10px; */
+}
+
+.row-5{
+  order: 20;
+}
+
+.meal {
+	/* padding: 50px 0; */
+}
+
+.meal-recipe-img{
+  /* padding-top: 10px; */
+  align-items: flex-start;
+  /* width: 50%; */
+}
+
+
+
+.button-randomizer{
+background: #2a033a;
+/*   align-items: baseline; */
+padding: 15px;
+height: auto;
+width: 100%;
+display: flex;
+justify-content: center;
+border-radius: 100px;
+border: 1px solid #2a033a80;
+/* position: absolute; */
+}
+
+.button-img{
+  height: auto;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe_details{
+  padding: 20px 50px;
+  height: auto;
+  /* margin: 50px; */
+  background: white;
+  /* height: auto; */
+}
+
+.recipe_Name{
+  color: white;
+  background: #351341;
+  padding: 10px 30px;
+  font-size: 22px;
+  margin: 0;
+}
+
+p{
+  font-size: 14px;
+}
+
+.tags{
+  padding: 10px;
+  background: #dc9811;
+  border-radius: 50px;
+  margin-right: 250px;
+  border: 1px solid gold;
+  text-align: center;  
+}
+
+
+
+/* RESULTS PAGE */
+.exit{
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  background: #351341;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+
+
+/* COOKBOOK PAGE */
+
+.container-2{
+  background: white;
+  height: 100%;
+  width: 500px;
+  padding: 50px 0;
+  margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.header{
+  width: 500px;
+  height: auto;
+  background: #351341;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-content: flex-start;
+  /* border: 2px solid red; */
+}
+
+.menu{
+  width: 50px;
+}
+
+
+.header-row{
+  flex-grow: 1;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.header-row-title{
+  flex-grow: 3;
+  text-align: left;
+}
+
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-row{
+  padding: 30px 20px;
+}
+
+.cravings{
+  /* border: 1px solid red; */
+  width: 400px;
+  font-size: 18px;
+  border-bottom: 2px solid #dc9811;
+}
+
+.recipe-col-1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding:10px;
+  /* margin:10px; */
+}
+.recipe-row{
+  margin: 10px;
+  justify-content: center;
+}
+
+.recipe-img{
+  width: 100%;
+}
+
+.new-page-container{
+  display: flex;
+}
+
+.cookbook-nav-bar{
+    background: #351341;
+    width: 500px;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.button-randomizer-cookbook{
+background: #2a033a;
+/*   align-items: baseline; */
+padding: 10px;
+height: auto;
+display: flex;
+justify-content: center;
+border-radius: 100px;
+border: 1px solid  #2a033a;
+}
